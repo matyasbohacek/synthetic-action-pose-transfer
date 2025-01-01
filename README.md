@@ -1,7 +1,7 @@
 
 <img width="1035" alt="arxiv-teaser" src="https://github.com/user-attachments/assets/2a8d0f2e-7993-45d5-94df-5c6deb226b68" />
 
-# Pose-Transfer Synthetic Data Generation for Video Models
+# Pose-Transfer Synthetic Data Generation for Video Model Training
 
 #### [Vaclav Knapp](https://www.linkedin.com/in/václav-knapp-7696b624a/) and [Matyas Bohacek](https://www.matyasbohacek.com)
 
