@@ -13,11 +13,17 @@ In video understanding tasks, particularly those involving human actions, synthe
 
 ## Getting Started
 
-TBD describe included data
+TBD
 
 ## Data
 
-TBD describe included features
+TBD
+
+## Features
+
+[**Synthetic Data Generation.**](synthetic_data_generation/README.md) We open-source the method for synthetic video data generation built around pose transfer, which we used to create the _RANDOM People_ dataset. This method can be used to scale an arbitrary dataset with videos of human actions. 
+
+[**Experiments.**](experiments/README.md) We include scripts for baseline and few-shot experiments described in our paper. These train video classification models (in particular, the TimeSformer, ViViT, and VideoMAE architectures) for the task of human action recognition.
 
 ## Citation
 
