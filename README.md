@@ -17,7 +17,7 @@ TBD
 
 ## Data
 
-TBD
+If you want to use our _RANDOM People_ dataset, refer to [its Hugging Face page](). If you wish to reproduce our results with the Toyota Smarthome dataset, please refer to [the official distribution instructions](), as presented by its authors.
 
 ## Features
 
