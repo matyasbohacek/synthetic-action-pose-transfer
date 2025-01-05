@@ -17,13 +17,13 @@ TBD
 
 ## Data
 
-If you want to use our _RANDOM People_ dataset, refer to [its Hugging Face page](https://huggingface.co/datasets/matybohacek/RANDOM-People). If you wish to reproduce our results with the Toyota Smarthome dataset, please refer to [the official distribution instructions](https://project.inria.fr/toyotasmarthome/), as presented by its authors.
+If you want to use our _RANDOM People_ dataset, refer to [its Hugging Face page](https://huggingface.co/datasets/matybohacek/RANDOM-People). If you wish to reproduce our results on the Toyota Smarthome dataset, please refer to [the official distribution instructions](https://project.inria.fr/toyotasmarthome/), as presented by its authors.
 
 ## Features
 
-[**Synthetic Data Generation.**](synthetic_data_generation/README.md) We open-source the method for synthetic video data generation built around pose transfer, which we used to create the _RANDOM People_ dataset. This method can be used to scale an arbitrary dataset with videos of human actions. 
+[**Synthetic Data Generation.**](synthetic_data_generation/README.md) We open-source our method for synthetic video data generation built around pose transfer, used to create the _RANDOM People_ dataset. This method can be used to scale an arbitrary dataset with videos of human action.
 
-[**Experiments.**](experiments/README.md) We include scripts for baseline and few-shot experiments described in our paper. These train video classification models (in particular, the TimeSformer, ViViT, and VideoMAE architectures) for the task of human action recognition.
+[**Experiments.**](experiments/README.md) We include scripts for baseline and few-shot experiments, as described in our paper. These scripts train video classification models (in particular, of the TimeSformer, ViViT, and VideoMAE architectures) for the task of human action recognition.
 
 ## Citation
 
