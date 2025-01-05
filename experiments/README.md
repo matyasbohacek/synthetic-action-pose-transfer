@@ -4,9 +4,9 @@ This module contains scripts for baseline and few-shot experiments described in 
 
 ## Getting Started
 
-1. Follow the repository-level instructions to prepare a Python environment with the required packages.
+1. Follow the repository-level instructions to set up a Python environment with the required packages.
 
-2. Prepare your data in designated directories for real videos, synthetic videos with a white background, and synthetic videos with an image background. 
+2. Prepare your data. Designate separate directories for real videos, synthetic videos with a white background, and synthetic videos with an image background. 
 
 3. Specify command-line parameters (refer to in-code documentation and docstrings) and launch the training script with `python train.py`.
 
