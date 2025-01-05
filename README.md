@@ -21,9 +21,9 @@ If you want to use our _RANDOM People_ dataset, refer to [its Hugging Face page]
 
 ## Features
 
-[**Synthetic Data Generation.**](synthetic_data_generation/README.md) We open-source our method for synthetic video data generation built around pose transfer, used to create the _RANDOM People_ dataset. This method can be used to scale an arbitrary dataset with videos of human action.
+[**Synthetic Data Generation.**](synthetic_data_generation/) We open-source our method for synthetic video data generation built around pose transfer, used to create the _RANDOM People_ dataset. This method can be used to scale an arbitrary dataset with videos of human action.
 
-[**Experiments.**](experiments/README.md) This repository also includes scripts for baseline and few-shot experiments described in our paper. These scripts train video classification models (in particular, of the TimeSformer, ViViT, and VideoMAE architectures) for the task of human action recognition.
+[**Experiments.**](experiments/) This repository also includes scripts for baseline and few-shot experiments described in our paper. These scripts train video classification models (in particular, of the TimeSformer, ViViT, and VideoMAE architectures) for the task of human action recognition.
 
 ## Citation
 
