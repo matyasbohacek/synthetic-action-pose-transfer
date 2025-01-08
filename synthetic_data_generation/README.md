@@ -1,25 +1,84 @@
 # Synthetic Data Generation
 
-1) Install requirements. Python 3.10 is necessary
-`pip install -r requirements.txt`
+This repository provides tools for generating synthetic data using the ExAvatar framework. Follow the steps below to set up the environment and run the fitting process for avatars and motion videos.
 
-# Fitting the avatars
-## Using RANDOM PEOPLE dataset
-1) clone Exavatar using 'git clone https://github.com/mks0601/ExAvatar_RELEASE.git'
-2) Go to the folder 'cd ./ExAvatar_RELEASE/fitting/data/Custom/data' and download RANDOM people dataset using 'xx'.
+---
 
-## Using your own avatars
-If you would like to to add more monocular videos, place them in './ExAvatar_RELEASE/fitting/data/Custom/data' in the same data structure
-3) remove old 'run.py' using 'rm ./ExAvatar_RELEASE/fitting/tools/run.py'
-4) move new 'run.py' in 'tools' folder using 'mv Pose-Transfer-synthetic-data/synthetic_data_generation/run.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools'
-5) Go to 'cd ./ExAvatar_RELEASE/fitting/tools'
-6) Run 'python run.py --rootpath path/to/your/video_folder'
+## Prerequisites
 
-# Fitting the motion videos
-1) place your dataset folder with '.mp4' videos in 'cd ./ExAvatar_RELEASE/fitting/data/Custom/data/'
-2) To create usable dataset for Exavatar change paths in 'mp4.sh' and run 'bash mp4.sh'
-3) move 'motion_run.py' in 'tools' folder using 'mv Pose-Transfer-synthetic-data/synthetic_data_generation/motion_ run.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools'
-4) Go to 'cd ./ExAvatar_RELEASE/fitting/tools'
-5) Run 'motion_run.py --rootpath path/to/your/video_folder'
-   
+1. **Python**: Ensure Python 3.10 is installed.
+2. **Dependencies**: Install the required packages using:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Fitting Avatars
+
+### Using the RANDOM PEOPLE Dataset
+
+1. Clone the ExAvatar repository:
+   ```bash
+   git clone https://github.com/mks0601/ExAvatar_RELEASE.git
+   ```
+2. Navigate to the dataset folder:
+   ```bash
+   cd ./ExAvatar_RELEASE/fitting/data/Custom/data
+   ```
+3. Download the RANDOM PEOPLE dataset and place it in this directory. 
+
+### Using Your Own Avatars
+
+1. To use your own monocular videos, place them in:
+   ```
+   ./ExAvatar_RELEASE/fitting/data/Custom/data
+   ```
+   Ensure the data follows the same directory structure as the RANDOM PEOPLE dataset.
+
+2. Replace the default `run.py` file:
+   ```bash
+   rm ./ExAvatar_RELEASE/fitting/tools/run.py
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/run.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools/
+   ```
+
+3. Navigate to the `tools` folder:
+   ```bash
+   cd ./ExAvatar_RELEASE/fitting/tools
+   ```
+
+4. Run the fitting script:
+   ```bash
+   python run.py --rootpath path/to/your/video_folder
+   ```
+
+---
+
+## Fitting Motion Videos
+
+1. Place your dataset folder containing `.mp4` videos in:
+   ```
+   ./ExAvatar_RELEASE/fitting/data/Custom/data/
+   ```
+
+2. Modify paths in the `mp4.sh` script to point to your dataset, then run:
+   ```bash
+   bash mp4.sh
+   ```
+
+3. Replace the default motion fitting script:
+   ```bash
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/motion_run.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools/
+   ```
+
+4. Navigate to the `tools` folder:
+   ```bash
+   cd ./ExAvatar_RELEASE/fitting/tools
+   ```
+
+5. Run the motion fitting script:
+   ```bash
+   python motion_run.py --rootpath path/to/your/video_folder
+   ```
+
 
