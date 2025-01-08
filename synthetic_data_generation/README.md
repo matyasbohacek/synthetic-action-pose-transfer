@@ -82,4 +82,18 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    ```
 ## Animating videos
 
-
+1. Replace old animating files with new ones:
+   ```bash
+   rm Pose-Transfer-synthetic-data/ExAvatar_RELEASE/main/animate.py
+   rm Pose-Transfer-synthetic-data/ExAvatar_RELEASE/avatar/common/nets/module.py
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/animate.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/main
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/module.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/avatar/common/nets
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/animate_all_data.sh Pose-Transfer-synthetic-data/ExAvatar_RELEASE/main
+   ```
+2. Animate all videos in you video dataset with all avatars and images:
+   ```bash
+   cd Pose-Transfer-synthetic-data/ExAvatar_RELEASE/main
+   bash animate_all_data.sh 
+   ```
+   Make sure to add correct paths in the `animate_all_data.sh`
+   
