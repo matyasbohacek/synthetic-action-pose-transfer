@@ -80,5 +80,6 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    ```bash
    python motion_run.py --rootpath path/to/your/video_folder
    ```
+## Animating videos
 
 
