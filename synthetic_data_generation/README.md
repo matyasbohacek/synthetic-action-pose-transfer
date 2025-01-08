@@ -34,7 +34,7 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    ```
    ./ExAvatar_RELEASE/fitting/data/Custom/data
    ```
-   Ensure the data follows the same directory structure as the RANDOM PEOPLE dataset.
+   Ensure the data follows the same directory structure as the monocular videos from RANDOM PEOPLE dataset.
 
 2. Replace the default `run.py` file:
    ```bash
