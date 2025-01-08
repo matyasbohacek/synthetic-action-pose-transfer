@@ -32,7 +32,7 @@ This repository provides tools for generating synthetic data using the ExAvatar 
 
 1. To use your own monocular videos, place them in:
    ```
-   ./ExAvatar_RELEASE/fitting/data/Custom/data
+   ./ExAvatar_RELEASE/fitting/data/Custom/data/avatars
    ```
    Ensure the data follows the same directory structure as the monocular videos from RANDOM PEOPLE dataset.
 
