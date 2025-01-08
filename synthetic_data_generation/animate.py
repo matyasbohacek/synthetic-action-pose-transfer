@@ -18,7 +18,7 @@ def parse_args():
     parser.add_argument('--subject_id', type=str, dest='subject_id')
     parser.add_argument('--test_epoch', type=str, dest='test_epoch')
     parser.add_argument('--motion_path', type=str, dest='motion_path')
-    #parser.add_argument('--image_path', type=str, dest='image_path')
+    parser.add_argument('--image_path', type=str, dest='image_path')
     args = parser.parse_args()
 
     assert args.subject_id, "Please set subject ID"
