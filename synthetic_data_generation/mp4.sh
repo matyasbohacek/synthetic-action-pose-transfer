@@ -1,10 +1,10 @@
 #!/bin/bash
 
-# Source directory containing the videos
-SRC_DIR="/workspace/Maty_CVPR/mp4"
+# Source directory containing the dataset with .mp4 videos
+SRC_DIR=""
 
 # Target directory where videos will be copied
-TARGET_DIR="/workspace/Maty_CVPR/ExAvatar_RELEASE/fitting/data/Custom/data/motion"
+TARGET_DIR="Pose-transfer-syntetic-data/ExAvatar_RELEASE/fitting/data/Custom/data/motion"
 
 mkdir -p "$TARGET_DIR" 
 
