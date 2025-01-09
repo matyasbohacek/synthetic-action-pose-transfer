@@ -68,6 +68,7 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    python train.py --subject_id path/to/your/video_folder
    ```
    The checkpoints are saved in `Pose-Transfer-synthetic-data/ExAvatar_RELEASE/avatar/output/model_dump`
+   Place the folder with checkpoints inside `avatars` folder
 ---
 
 ## Fitting Motion Videos
