@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # dataset path
-DATA_DIR="Pose-transfer-synthetic-data/ExAvatar_RELEASE/fitting/data/Custom/data/dataset"
+DATA_DIR="Pose-transfer-synthetic-data/ExAvatar_RELEASE/fitting/data/Custom/data/motion"
 
 
 MOTION_RUN_SCRIPT="motion_run.py"
