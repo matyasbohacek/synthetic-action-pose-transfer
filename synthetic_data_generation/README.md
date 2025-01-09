@@ -23,6 +23,7 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    cd Pose-Transfer-synthetic-data
    git clone https://github.com/mks0601/ExAvatar_RELEASE.git
    ```
+   Follow the dowloading instruction for models in `ExAvatar_RELEASE` repository
 2. Navigate to the dataset folder:
    ```bash
    cd ./ExAvatar_RELEASE/fitting/data/Custom/data
