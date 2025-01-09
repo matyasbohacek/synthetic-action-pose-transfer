@@ -28,7 +28,8 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    ```bash
    cd ./ExAvatar_RELEASE/fitting/data/Custom/data
    ```
-3. Download the RANDOM PEOPLE dataset and place `avatars` folder in this `.` directory. 
+3. Download the RANDOM PEOPLE dataset and place `avatars` folder in this `.` directory.
+4. Place the `avatars_checkpoints in` folder in `/workspace/Maty_CVPR/ExAvatar_RELEASE/avatar/output/model_dump`
 
 ### Using Your Own Avatars
 
@@ -57,7 +58,11 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    ```bash
    python run.py --rootpath path/to/your/video_folder
    ```
-
+5. Training the 3D avatars:
+   ```bash
+   python train.py --subject_id path/to/your/video_folder
+   ```
+   The checkpoints are saved in `Pose-Transfer-synthetic-data/ExAvatar_RELEASE/avatar/output/model_dump`
 ---
 
 ## Fitting Motion Videos
