@@ -27,13 +27,14 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    ```bash
    cd ./ExAvatar_RELEASE/fitting/data/Custom/data
    ```
-3. Download the RANDOM PEOPLE dataset and place it in this directory. 
+3. Download the RANDOM PEOPLE dataset and place `avatars` folder in this `.` directory. 
 
 ### Using Your Own Avatars
 
 1. To use your own monocular videos, place them in:
    ```
-   ./ExAvatar_RELEASE/fitting/data/Custom/data/avatars
+   mkdir -p ./ExAvatar_RELEASE/fitting/data/Custom/data/avatars
+   cd ./ExAvatar_RELEASE/fitting/data/Custom/data/avatars
    ```
    Ensure the data follows the same directory structure as the monocular videos from RANDOM PEOPLE dataset.
 
@@ -67,7 +68,7 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    bash mp4.sh
    ```
 
-3. Replace the default motion fitting script:
+3. Add motion fitting script:
    ```bash
    mv Pose-Transfer-synthetic-data/synthetic_data_generation/motion_run.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools/
    ```
@@ -79,8 +80,9 @@ This repository provides tools for generating synthetic data using the ExAvatar 
 
 5. Run the motion fitting script:
    ```bash
-   python motion_run.py --rootpath path/to/your/video_folder
+   bash motion_loop.sh
    ```
+   Make sure to add path to the dataset folder
 ## Animating videos
 
 1. Replace old animating files with new ones:
