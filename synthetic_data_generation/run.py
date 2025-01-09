@@ -5,8 +5,6 @@ import sys
 import argparse
 import cv2
 
-os.system('sudo nvidia-smi --gpu-reset')
-
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('--root_path', type=str, dest='root_path')
