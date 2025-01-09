@@ -20,6 +20,7 @@ This repository provides tools for generating synthetic data using the ExAvatar 
 
 1. Clone the ExAvatar repository:
    ```bash
+   cd Pose-Transfer-synthetic-data
    git clone https://github.com/mks0601/ExAvatar_RELEASE.git
    ```
 2. Navigate to the dataset folder:
