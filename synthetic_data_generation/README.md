@@ -39,10 +39,13 @@ This repository provides tools for generating synthetic data using the ExAvatar 
    ```
    Ensure the data follows the same directory structure as the monocular videos from RANDOM PEOPLE dataset.
 
-2. Replace the default `run.py` file:
+2. Replace the default `run.py` file and add additional files:
    ```bash
    rm ./ExAvatar_RELEASE/fitting/tools/run.py
    mv Pose-Transfer-synthetic-data/synthetic_data_generation/run.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools/
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/normalise_vid.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools/
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/n_frames.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools/
+   mv Pose-Transfer-synthetic-data/synthetic_data_generation/extract_frames.py Pose-Transfer-synthetic-data/ExAvatar_RELEASE/fitting/tools/
    ```
 
 3. Navigate to the `tools` folder:
