@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # dataset path
-DATA_DIR="/workspace/Maty_CVPR/ExAvatar_RELEASE/fitting/data/Custom/data/wacv_motion"
+DATA_DIR="Pose-transfer-synthetic-data/ExAvatar_RELEASE/fitting/data/Custom/data/dataset"
 
 
 MOTION_RUN_SCRIPT="motion_run.py"
