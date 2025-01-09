@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # Directories
-SUBJECT_DIR="/workspace/Maty_CVPR/ExAvatar_RELEASE/fitting/data/Custom/data/avatars" #folder with all avatars
-MOTION_DIR="/workspace/Maty_CVPR/ExAvatar_RELEASE/fitting/data/Custom/data/motion" #folder with all motion videos
-IMAGES_DIR="/workspace/Maty_CVPR/ExAvatar_RELEASE/images" #folder with images for backgrounds
+SUBJECT_DIR="Pose-transfer-synthetic-data/ExAvatar_RELEASE/fitting/data/Custom/data/avatars" #folder with all avatars
+MOTION_DIR="Pose-transfer-synthetic-data/ExAvatar_RELEASE/fitting/data/Custom/data/motion" #folder with all motion videos
+IMAGES_DIR="Pose-transfer-synthetic-data/ExAvatar_RELEASE/images" #folder with images for backgrounds
 
 
 SUBJECT_IDS=($(find "$SUBJECT_DIR" -mindepth 1 -maxdepth 1 -type d ! -name "motion" -exec basename {} \;))
