@@ -6,7 +6,7 @@
 
 In video understanding tasks, particularly those involving human motion, synthetic data generation often suffers from uncanny features, diminishing its effectiveness for training. Tasks such as sign language translation, gesture recognition, and human motion understanding in autonomous driving have thus been unable to exploit the full potential of synthetic data. This paper proposes a method for generating synthetic human action video data using pose transfer (specifically, controllable 3D Gaussian avatar models). We evaluate this method on the Toyota Smarthome and NTU RGB+D datasets and show that it improves performance in action recognition tasks. Moreover, we demonstrate that the method can effectively scale few-shot datasets, making up for groups underrepresented in the real training data and adding diverse backgrounds. We open-source the method along with RANDOM People, a dataset with videos and avatars of novel human identities for pose transfer crowd-sourced from the internet.
 
-> [Website](https://synthetic-human-action.github.io) — [Paper](https://openreview.net/pdf?id=KTXL0idiky) — [Poster]() — [Contact us](mailto:maty-at-stanford-dot-edu)
+> [Website](https://synthetic-human-action.github.io) — [Paper](https://openreview.net/pdf?id=KTXL0idiky) — [Data](https://huggingface.co/datasets/matybohacek/RANDOM-People) [Poster]() — [Contact us](mailto:maty-at-stanford-dot-edu)
 > 
 > _Synthetic Data for Computer Vision Workshop @ CVPR 2025_
 
