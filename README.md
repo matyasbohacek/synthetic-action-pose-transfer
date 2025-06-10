@@ -16,7 +16,7 @@ TBD
 
 ## Data
 
-If you want to use our _RANDOM People_ dataset, refer to [its Hugging Face page](https://huggingface.co/datasets/matybohacek/RANDOM-People). If you wish to reproduce our results on the Toyota Smarthome dataset, please refer to [the official distribution instructions](https://project.inria.fr/toyotasmarthome/), as presented by its authors.
+If you want to use our _RANDOM People_ dataset, refer to [our Hugging Face page](https://huggingface.co/datasets/matybohacek/RANDOM-People). If you wish to reproduce our results on the Toyota Smarthome dataset, please refer to [the official distribution instructions](https://project.inria.fr/toyotasmarthome/), as presented by its authors.
 
 ## Features
 
