@@ -1,15 +1,14 @@
+![banner](https://github.com/user-attachments/assets/1e6b6bd1-93ba-4658-b014-b9ab43c6badb)
 
-<img width="1035" alt="arxiv-teaser" src="https://github.com/user-attachments/assets/2a8d0f2e-7993-45d5-94df-5c6deb226b68" />
+# Synthetic Human Action Video Data Generation with Pose Transfer
 
-# Pose-Transfer Synthetic Data Generation for Video Model Training
+#### [Vaclav Knapp](https://vaclavknapp.github.io) and [Maty Bohacek](https://www.matyasbohacek.com)
 
-#### [Vaclav Knapp](https://vaclavknapp.github.io) and [Matyas Bohacek](https://www.matyasbohacek.com)
+In video understanding tasks, particularly those involving human motion, synthetic data generation often suffers from uncanny features, diminishing its effectiveness for training. Tasks such as sign language translation, gesture recognition, and human motion understanding in autonomous driving have thus been unable to exploit the full potential of synthetic data. This paper proposes a method for generating synthetic human action video data using pose transfer (specifically, controllable 3D Gaussian avatar models). We evaluate this method on the Toyota Smarthome and NTU RGB+D datasets and show that it improves performance in action recognition tasks. Moreover, we demonstrate that the method can effectively scale few-shot datasets, making up for groups underrepresented in the real training data and adding diverse backgrounds. We open-source the method along with RANDOM People, a dataset with videos and avatars of novel human identities for pose transfer crowd-sourced from the internet.
 
-In video understanding tasks, particularly those involving human actions, synthetic data generation often suffers from uncanny features, diminishing its impact on training. Tasks such as sign language translation, gesture recognition, and human motion understanding in autonomous driving have thus been unable to exploit the full potential of synthetic data. This paper proposes a method for generating high-fidelity synthetic training data of human action videos based on controllable 3D Gaussian avatar models. We evaluate this method on a subset of the Toyota Smarthome dataset and show that it improves performance in action recognition tasks. Moreover, we demonstrate that the method can effectively scale few-shot datasets and improve robustness by increasing their size, making up for groups underrepresented in the real training data, and adding diverse backgrounds. We open-source the method, along with a dataset of synthetic videos based on the Smarthome dataset, which we call _RANDOM People_.
-
-> [See paper]() — See poster — [Contact us](mailto:maty-at-stanford-dot-edu)
+> [Website](https://synthetic-human-action.github.io) — [Paper](https://openreview.net/pdf?id=KTXL0idiky) — [Poster]() — [Contact us](mailto:maty-at-stanford-dot-edu)
 > 
-> _Pre-print released on arXiv_
+> _Synthetic Data for Computer Vision Workshop @ CVPR 2025_
 
 ## Getting Started
 
@@ -21,16 +20,20 @@ If you want to use our _RANDOM People_ dataset, refer to [its Hugging Face page]
 
 ## Features
 
-[**Synthetic Data Generation.**](synthetic_data_generation/) We open-source our method for synthetic video data generation built around pose transfer, used to create the _RANDOM People_ dataset. This method can be used to scale an arbitrary dataset with videos of human action.
+[**Synthetic Data Generation.**](synthetic_data_generation/) Synthetic video data generation toolkit built around pose transfer. It can be used to scale an arbitrary dataset with videos of human action.
 
-[**Experiments.**](experiments/) This repository also includes scripts for baseline and few-shot experiments described in our paper. These scripts train video classification models (in particular, of the TimeSformer, ViViT, and VideoMAE architectures) for the task of human action recognition.
+[**Experiments.**](experiments/) This modules includes scripts for baseline and few-shot experiments described in the paper. These scripts train video classification models for the task of human action recognition.
 
 ## Citation
 
 ```bibtex
-TBD
+@inproceedings{knapp2025synthetic,
+  title={Synthetic Human Action Video Data Generation with Pose Transfer},
+  author={Knapp, Vaclav and Bohacek, Matyas},
+  booktitle={Synthetic Data for Computer Vision Workshop@ CVPR 2025}
+}
 ```
 
 ## Remarks & Updates
 
-- (**TBD Date**) The pre-print is released on arXiv.
+- (**June 2025**) The paper is presented at a CVPR workshop in Nashville, TN.
