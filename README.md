@@ -16,8 +16,6 @@ TBD
 
 ## Data
 
-![banner](https://github.com/user-attachments/assets/2bff5db5-ba0f-4bf0-bc78-fa155e1d988e)
-
 If you want to use our _RANDOM People_ dataset, refer to [our Hugging Face page](https://huggingface.co/datasets/matybohacek/RANDOM-People). If you wish to reproduce our results on the Toyota Smarthome dataset, please refer to [the official distribution instructions](https://project.inria.fr/toyotasmarthome/), as presented by its authors.
 
 ## Features
@@ -32,7 +30,7 @@ If you want to use our _RANDOM People_ dataset, refer to [our Hugging Face page]
 @inproceedings{knapp2025synthetic,
   title={Synthetic Human Action Video Data Generation with Pose Transfer},
   author={Knapp, Vaclav and Bohacek, Matyas},
-  booktitle={Synthetic Data for Computer Vision Workshop@ CVPR 2025}
+  booktitle={Synthetic Data for Computer Vision Workshop @ CVPR 2025}
 }
 ```
 
